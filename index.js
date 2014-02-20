@@ -22,7 +22,7 @@
 var EventEmitter;
 
 try {
-	EventEmitter = require('emitter');
+	EventEmitter = require('component-emitter');
 } catch (e) {
 	EventEmitter = require('events').EventEmitter;
 }
